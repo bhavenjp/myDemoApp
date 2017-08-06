@@ -1,7 +1,7 @@
 ---
 applications:
-- name: scale-demo
+- name: myDemoApp01
   memory: 128M
   instances: 1
-  host: BhAutoscale
+  host: BhmyDemoApp01
   path: .
