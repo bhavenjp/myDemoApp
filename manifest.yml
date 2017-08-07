@@ -1,7 +1,7 @@
 ---
 applications:
-- name: myDemoApp02
-  memory: 128M
+- name: myDemoApp01
+  memory: 256M
   instances: 1
-  host: BhmyDemoApp02
+  host: BhmyDemoApp01
   path: .
