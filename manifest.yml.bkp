@@ -1,0 +1,9 @@
+---
+applications:
+- name: pws-todo-php
+  host: pws-todo-php
+  memory: 128M
+  instances: 1
+  path: .
+  services:
+    - todo-db-php
